@@ -1,0 +1,14 @@
+# Python artifacts
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Data files
+*.csv
+*.tsv
+*.pkl
+
+# Folders to skip
+venv/
+data/
+.env

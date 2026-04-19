@@ -51,7 +51,7 @@ The goal was to keep things modular so I can easily:
 ## Future Plans
 
 * Improve the interface (it’s pretty barebones right now)
-* Add more and better practice modes (sentence building, lessons, maybe speakin and listening practice, etc.)
+* Add more and better practice modes (sentence building, lessons, maybe speaking and listening practice, etc.)
 * Expand the translation system
 * Support additional languages beyond Basque
 * Clean up and standardize the linguistic data

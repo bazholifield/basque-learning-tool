@@ -1,0 +1,203 @@
+﻿category,english,basque
+colors,red,gorria
+colors,blue,urdina
+colors,green,berdea
+colors,yellow,horia
+colors,black,beltza
+colors,white,txuria
+colors,gray,grisa
+colors,brown,marroia
+colors,pink,arrosa
+colors,orange,laranja
+colors,purple,morea
+colors,light,argia
+colors,dark,iluna
+
+numbers,one,bat
+numbers,two,bi
+numbers,three,hiru
+numbers,four,lau
+numbers,five,bost
+numbers,six,sei
+numbers,seven,zazpi
+numbers,eight,zortzi
+numbers,nine,bederatzi
+numbers,ten,hamar
+numbers,eleven,hamabi
+numbers,twelve,hamabi
+numbers,thirteen,hamahiru
+numbers,fourteen,hamalau
+numbers,fifteen,hamabost
+numbers,sixteen,hamasei
+numbers,seventeen,hamazazpi
+numbers,eighteen,hemezortzi
+numbers,nineteen,hemeretzi
+numbers,twenty,hogei
+
+family,mother,ama
+family,father,aita
+family,brother,anaia
+family,sister,arreba
+family,son,seme
+family,daughter,alaba
+family,parents,gurasoak
+family,grandfather,aitona
+family,grandmother,amona
+family,uncle,osaba
+family,aunt,izeba
+family,cousin,lehengusua
+family,husband,senarra
+family,wife,emaztea
+family,nephew,iloba
+family,niece,iloba
+family,child,umea
+family,baby,haurra
+family,family,familia
+family,relative,senide
+
+food,bread,ogia
+food,cheese,gazta
+food,milk,esnea
+food,water,ura
+food,meat,haragia
+food,fish,arraina
+food,egg,arrautza
+food,apple,sagarra
+food,orange,laranja
+food,banana,platanoa
+food,rice,arroza
+food,potato,patata
+food,salt,gatza
+food,sugar,azukrea
+food,coffee,kafea
+food,tea,te
+food,beer,garagardoa
+food,wine,ardoa
+food,soup,zopa
+food,vegetable,barazkia
+
+animals,dog,txakurra
+animals,cat,katua
+animals,bird,txoria
+animals,fish,arraina
+animals,cow,behi
+animals,horse,zaldi
+animals,sheep,ardia
+animals,pig,txerria
+animals,goat,ahuntza
+animals,duck,ahatea
+animals,hen,oiloa
+animals,rooster,oilarra
+animals,mouse,sagua
+animals,rabbit,untxia
+animals,bear,hartza
+animals,wolf,otso
+animals,fox,azeri
+animals,lion,lehoia
+animals,tiger,tigrea
+animals,elephant,elefantea
+
+nature,tree,zuhaitza
+nature,flower,lor
+nature,leaf,hostoa
+nature,grass,belarra
+nature,stone,harri
+nature,mountain,mendia
+nature,river,ibai
+nature,sea,itsasoa
+nature,sky,zerua
+nature,cloud,hodeia
+nature,wind,haizea
+nature,rain,euria
+nature,snow,elurra
+nature,sun,eguzkia
+nature,moon,ilargia
+nature,star,izarra
+nature,forest,basoa
+nature,fire, sua
+nature,earth,lurra
+nature,beach,hondartza
+
+body,head,burua
+body,hair,ilea
+body,eye,begia
+body,ear,belarria
+body,nose,sudurra
+body,mouth,ahoa
+body,tooth,hortza
+body,tongue,hizkuntza
+body,neck,lepoa
+body,shoulder,sorbald
+body,arm,besoa
+body,hand,eskua
+body,finger,hatza
+body,leg,hanka
+body,foot,oin
+body,knee,belaun
+body,stomach,sabela
+body,back,bizkarra
+body,heart,bihotza
+body,face,aurpegia
+
+verbs,to be,izan
+verbs,to have,eduki
+verbs,to go,joan
+verbs,to come,etorri
+verbs,to eat,jana
+verbs,to drink,edana
+verbs,to see,ikusi
+verbs,to hear,entzun
+verbs,to speak,hitz egin
+verbs,to read,irakurri
+verbs,to write,idatzi
+verbs,to sleep,lo egin
+verbs,to work,lan egin
+verbs,to study,ikasi
+verbs,to play,jolastu
+verbs,to run,korrika egin
+verbs,to walk,ibili
+verbs,to live,bizi
+verbs,to love,maite izan
+verbs,to think,pentsatu
+
+adjectives,good,ona
+adjectives,bad,txarra
+adjectives,big,handia
+adjectives,small,txikia
+adjectives,hot,bero
+adjectives,cold,hotz
+adjectives,old,zaharra
+adjectives,young,gaztea
+adjectives,new,berria
+adjectives,long,luzea
+adjectives,short,laburra
+adjectives,beautiful,ederra
+adjectives,ugly,itsusia
+adjectives,strong,indartsua
+adjectives,weak,ahula
+adjectives,rich,aberatsa
+adjectives,poor,txiroa
+adjectives,fast,azkarra
+adjectives,slow,motela
+adjectives,happy,pozik
+
+objects,house,etxea
+objects,door,atea
+objects,window,leihoa
+objects,table,mahaia
+objects,chair,aulkia
+objects,bed,ohea
+objects,book,liburua
+objects,pen,boligrafoa
+objects,pencil,arkatza
+objects,paper,orria
+objects,car,autoa
+objects,bike,bizikleta
+objects,phone,telefonoa
+objects,computer,ordenagailua
+objects,bag,poltsa
+objects,key,giltza
+objects,shirt,kamiseta
+objects,shoes,oinezkoak
+objects,hat,txapela
+objects,watch,erlojua

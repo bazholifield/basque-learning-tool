@@ -7,8 +7,8 @@ def load_conjugations(path="data/conjugations.csv"):
     with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            verb = row["verb"].strip(),
-            translation = row["translation"].strip(),
+            verb = row["verb"].strip()
+            translation = row["translation"].strip()
             tense = row["tense"].strip()
             person = row["person"].strip()
             conj = row["conjugation"].strip()

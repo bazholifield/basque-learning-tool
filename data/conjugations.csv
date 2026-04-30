@@ -1,0 +1,55 @@
+﻿verb,translation,tense,person,conjugation
+izan,to be,present,ni,naiz
+izan,to be,present,zu,zara
+izan,to be,present,hura,da
+izan,to be,past,ni,nintzen
+izan,to be,past,zu,zinen
+izan,to be,past,hura,zen
+izan,to be,future,ni,naizko
+izan,to be,future,zu,zaraiko
+izan,to be,future,hura,daiko
+izan,to be,conditional,ni,nintzateke
+izan,to be,conditional,zu,zinateke
+izan,to be,conditional,hura,legateke
+izan,to be,subjunctive,ni,nalitzan
+izan,to be,subjunctive,zu,zalitzan
+izan,to be,subjunctive,hura,dalitzan
+izan,to be,perfect,ni,naiz izan
+izan,to be,perfect,zu,zara izan
+izan,to be,perfect,hura,da izan
+eduki,to have,present,ni,daukat
+eduki,to have,present,zu,daukazu
+eduki,to have,present,hura,dauka
+eduki,to have,past,ni,neukan
+eduki,to have,past,zu,zenuen
+eduki,to have,past,hura,zuen
+eduki,to have,future,ni,edukiko dut
+eduki,to have,future,zu,edukiko duzu
+eduki,to have,future,hura,edukiko du
+eduki,to have,conditional,ni,neukateke
+eduki,to have,conditional,zu,zekateke
+eduki,to have,conditional,hura,zukateke
+eduki,to have,subjunctive,ni,edukizen dut
+eduki,to have,subjunctive,zu,edukizen duzu
+eduki,to have,subjunctive,hura,edukizen du
+eduki,to have,perfect,ni,daukat izan
+eduki,to have,perfect,zu,daukazu izan
+eduki,to have,perfect,hura,dauka izan
+joan,to go,present,ni,noa
+joan,to go,present,zu,zatoz
+joan,to go,present,hura,doa
+joan,to go,past,ni,joan nintzen
+joan,to go,past,zu,joan zinen
+joan,to go,past,hura,joan zen
+joan,to go,future,ni,joango naiz
+joan,to go,future,zu,joango zara
+joan,to go,future,hura,joango da
+joan,to go,conditional,ni,joango nintzateke
+joan,to go,conditional,zu,joango zinateke
+joan,to go,conditional,hura,joango litzateke
+joan,to go,subjunctive,ni,joan naizela
+joan,to go,subjunctive,zu,joan zaraela
+joan,to go,subjunctive,hura,joan dela
+joan,to go,perfect,ni,joan naiz
+joan,to go,perfect,zu,joan zara
+joan,to go,perfect,hura,joan da

@@ -1,7 +1,6 @@
 import streamlit as st
 import random
 from backend.conjugation_loader import load_conjugations
-from utils import unwrap
 
 def show():
     st.subheader("Verb Conjugation Practice")
@@ -29,8 +28,8 @@ def show():
     current = st.session_state.current
 
     # Display prompt
-    verb = unwrap(current['verb'])
-    translation = unwrap(current['translation'])
+    verb = current['verb']
+    translation = current['translation']
     person = current['person']
     tense = current['tense']
 

@@ -2,7 +2,6 @@ import streamlit as st
 import random
 from backend.declension_loader import load_declensions
 from data.declension_reference import basque_declensions
-from utils import unwrap
 
 def show():
     st.subheader("Noun Declension Practice")
@@ -38,8 +37,8 @@ def show():
         st.session_state.total_decl = 0
 
     current = st.session_state.current_decl
-    noun = unwrap(current["noun"])
-    translation = unwrap(current["translation"])
+    noun = current["noun"]
+    translation = current["translation"]
     case = current["case"]
     number = current["number"]
 

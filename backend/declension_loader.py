@@ -7,8 +7,8 @@ def load_declensions(path="data/declensions.csv"):
     with open(path, encoding="utf-8-sig") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            noun = row["noun"].strip(),
-            translation = row["translation"].strip(),
+            noun = row["noun"].strip()
+            translation = row["translation"].strip()
             case = row["case"].strip()
             number = row["number"].strip()
             decl = row["declension"].strip()

@@ -1,55 +1,361 @@
-﻿verb,translation,tense,person,conjugation
+verb,translation,tense,person,conjugation
 izan,to be,present,ni,naiz
 izan,to be,present,zu,zara
 izan,to be,present,hura,da
+izan,to be,present,gu,gara
+izan,to be,present,zuek,zarete
+izan,to be,present,haiek,dira
 izan,to be,past,ni,nintzen
 izan,to be,past,zu,zinen
 izan,to be,past,hura,zen
-izan,to be,future,ni,naizko
-izan,to be,future,zu,zaraiko
-izan,to be,future,hura,daiko
+izan,to be,past,gu,ginen
+izan,to be,past,zuek,zineten
+izan,to be,past,haiek,ziren
+izan,to be,future,ni,izango naiz
+izan,to be,future,zu,izango zara
+izan,to be,future,hura,izango da
+izan,to be,future,gu,izango gara
+izan,to be,future,zuek,izango zarete
+izan,to be,future,haiek,izango dira
 izan,to be,conditional,ni,nintzateke
 izan,to be,conditional,zu,zinateke
-izan,to be,conditional,hura,legateke
-izan,to be,subjunctive,ni,nalitzan
-izan,to be,subjunctive,zu,zalitzan
-izan,to be,subjunctive,hura,dalitzan
-izan,to be,perfect,ni,naiz izan
-izan,to be,perfect,zu,zara izan
-izan,to be,perfect,hura,da izan
+izan,to be,conditional,hura,litzateke
+izan,to be,conditional,gu,ginateke
+izan,to be,conditional,zuek,zinatekete
+izan,to be,conditional,haiek,lirateke
+izan,to be,subjunctive,ni,naiteke
+izan,to be,subjunctive,zu,zaitezke
+izan,to be,subjunctive,hura,daiteke
+izan,to be,subjunctive,gu,gaitezke
+izan,to be,subjunctive,zuek,zaitezkete
+izan,to be,subjunctive,haiek,daitezke
+izan,to be,perfect,ni,izana naiz
+izan,to be,perfect,zu,izana zara
+izan,to be,perfect,hura,izana da
+izan,to be,perfect,gu,izana gara
+izan,to be,perfect,zuek,izana zarete
+izan,to be,perfect,haiek,izana dira
 eduki,to have,present,ni,daukat
 eduki,to have,present,zu,daukazu
 eduki,to have,present,hura,dauka
+eduki,to have,present,gu,daukagu
+eduki,to have,present,zuek,daukazue
+eduki,to have,present,haiek,daukate
 eduki,to have,past,ni,neukan
-eduki,to have,past,zu,zenuen
-eduki,to have,past,hura,zuen
+eduki,to have,past,zu,zeukan
+eduki,to have,past,hura,zeukan
+eduki,to have,past,gu,geneukan
+eduki,to have,past,zuek,zeneukaten
+eduki,to have,past,haiek,zeukaten
 eduki,to have,future,ni,edukiko dut
 eduki,to have,future,zu,edukiko duzu
 eduki,to have,future,hura,edukiko du
-eduki,to have,conditional,ni,neukateke
-eduki,to have,conditional,zu,zekateke
-eduki,to have,conditional,hura,zukateke
-eduki,to have,subjunctive,ni,edukizen dut
-eduki,to have,subjunctive,zu,edukizen duzu
-eduki,to have,subjunctive,hura,edukizen du
-eduki,to have,perfect,ni,daukat izan
-eduki,to have,perfect,zu,daukazu izan
-eduki,to have,perfect,hura,dauka izan
+eduki,to have,future,gu,edukiko dugu
+eduki,to have,future,zuek,edukiko duzue
+eduki,to have,future,haiek,edukiko dute
+eduki,to have,conditional,ni,edukiko nuke
+eduki,to have,conditional,zu,edukiko zenuke
+eduki,to have,conditional,hura,edukiko luke
+eduki,to have,conditional,gu,edukiko genuke
+eduki,to have,conditional,zuek,edukiko zenukete
+eduki,to have,conditional,haiek,edukiko lukete
+eduki,to have,subjunctive,ni,eduki dezadan
+eduki,to have,subjunctive,zu,eduki dezazun
+eduki,to have,subjunctive,hura,eduki dezan
+eduki,to have,subjunctive,gu,eduki dezagun
+eduki,to have,subjunctive,zuek,eduki dezazuen
+eduki,to have,subjunctive,haiek,eduki dezaten
+eduki,to have,perfect,ni,eduki dut
+eduki,to have,perfect,zu,eduki duzu
+eduki,to have,perfect,hura,eduki du
+eduki,to have,perfect,gu,eduki dugu
+eduki,to have,perfect,zuek,eduki duzue
+eduki,to have,perfect,haiek,eduki dute
 joan,to go,present,ni,noa
-joan,to go,present,zu,zatoz
+joan,to go,present,zu,zoaz
 joan,to go,present,hura,doa
+joan,to go,present,gu,goaz
+joan,to go,present,zuek,zoazte
+joan,to go,present,haiek,doaz
 joan,to go,past,ni,joan nintzen
 joan,to go,past,zu,joan zinen
 joan,to go,past,hura,joan zen
+joan,to go,past,gu,joan ginen
+joan,to go,past,zuek,joan zineten
+joan,to go,past,haiek,joan ziren
 joan,to go,future,ni,joango naiz
 joan,to go,future,zu,joango zara
 joan,to go,future,hura,joango da
+joan,to go,future,gu,joango gara
+joan,to go,future,zuek,joango zarete
+joan,to go,future,haiek,joango dira
 joan,to go,conditional,ni,joango nintzateke
 joan,to go,conditional,zu,joango zinateke
 joan,to go,conditional,hura,joango litzateke
-joan,to go,subjunctive,ni,joan naizela
-joan,to go,subjunctive,zu,joan zaraela
-joan,to go,subjunctive,hura,joan dela
+joan,to go,conditional,gu,joango ginateke
+joan,to go,conditional,zuek,joango zinatekete
+joan,to go,conditional,haiek,joango lirateke
+joan,to go,subjunctive,ni,joan nadin
+joan,to go,subjunctive,zu,joan zaitezen
+joan,to go,subjunctive,hura,joan dadin
+joan,to go,subjunctive,gu,joan gaitezen
+joan,to go,subjunctive,zuek,joan zaitezte
+joan,to go,subjunctive,haiek,joan daitezen
 joan,to go,perfect,ni,joan naiz
 joan,to go,perfect,zu,joan zara
 joan,to go,perfect,hura,joan da
+joan,to go,perfect,gu,joan gara
+joan,to go,perfect,zuek,joan zarete
+joan,to go,perfect,haiek,joan dira
+etorri,to come,present,ni,nator
+etorri,to come,present,zu,zatoz
+etorri,to come,present,hura,dator
+etorri,to come,present,gu,gatoz
+etorri,to come,present,zuek,zatozte
+etorri,to come,present,haiek,datoz
+etorri,to come,past,ni,etorri nintzen
+etorri,to come,past,zu,etorri zinen
+etorri,to come,past,hura,etorri zen
+etorri,to come,past,gu,etorri ginen
+etorri,to come,past,zuek,etorri zineten
+etorri,to come,past,haiek,etorri ziren
+etorri,to come,future,ni,etorriko naiz
+etorri,to come,future,zu,etorriko zara
+etorri,to come,future,hura,etorriko da
+etorri,to come,future,gu,etorriko gara
+etorri,to come,future,zuek,etorriko zarete
+etorri,to come,future,haiek,etorriko dira
+etorri,to come,conditional,ni,etorriko nintzateke
+etorri,to come,conditional,zu,etorriko zinateke
+etorri,to come,conditional,hura,etorriko litzateke
+etorri,to come,conditional,gu,etorriko ginateke
+etorri,to come,conditional,zuek,etorriko zinatekete
+etorri,to come,conditional,haiek,etorriko lirateke
+etorri,to come,subjunctive,ni,etor nadin
+etorri,to come,subjunctive,zu,etor zaitezen
+etorri,to come,subjunctive,hura,etor dadin
+etorri,to come,subjunctive,gu,etor gaitezen
+etorri,to come,subjunctive,zuek,etor zaitezte
+etorri,to come,subjunctive,haiek,etor daitezen
+etorri,to come,perfect,ni,etorri naiz
+etorri,to come,perfect,zu,etorri zara
+etorri,to come,perfect,hura,etorri da
+etorri,to come,perfect,gu,etorri gara
+etorri,to come,perfect,zuek,etorri zarete
+etorri,to come,perfect,haiek,etorri dira
+egon,to be (location),present,ni,nago
+egon,to be (location),present,zu,zaude
+egon,to be (location),present,hura,dago
+egon,to be (location),present,gu,gaude
+egon,to be (location),present,zuek,zaudete
+egon,to be (location),present,haiek,daude
+egon,to be (location),past,ni,nengoen
+egon,to be (location),past,zu,zeunden
+egon,to be (location),past,hura,zegoen
+egon,to be (location),past,gu,geunden
+egon,to be (location),past,zuek,zeundeten
+egon,to be (location),past,haiek,zeuden
+egon,to be (location),future,ni,egongo naiz
+egon,to be (location),future,zu,egongo zara
+egon,to be (location),future,hura,egongo da
+egon,to be (location),future,gu,egongo gara
+egon,to be (location),future,zuek,egongo zarete
+egon,to be (location),future,haiek,egongo dira
+egon,to be (location),conditional,ni,egongo nintzateke
+egon,to be (location),conditional,zu,egongo zinateke
+egon,to be (location),conditional,hura,egongo litzateke
+egon,to be (location),conditional,gu,egongo ginateke
+egon,to be (location),conditional,zuek,egongo zinatekete
+egon,to be (location),conditional,haiek,egongo lirateke
+egon,to be (location),subjunctive,ni,egon nadin
+egon,to be (location),subjunctive,zu,egon zaitezen
+egon,to be (location),subjunctive,hura,egon dadin
+egon,to be (location),subjunctive,gu,egon gaitezen
+egon,to be (location),subjunctive,zuek,egon zaitezte
+egon,to be (location),subjunctive,haiek,egon daitezen
+egon,to be (location),perfect,ni,egon naiz
+egon,to be (location),perfect,zu,egon zara
+egon,to be (location),perfect,hura,egon da
+egon,to be (location),perfect,gu,egon gara
+egon,to be (location),perfect,zuek,egon zarete
+egon,to be (location),perfect,haiek,egon dira
+egin,to do,present,ni,egiten dut
+egin,to do,present,zu,egiten duzu
+egin,to do,present,hura,egiten du
+egin,to do,present,gu,egiten dugu
+egin,to do,present,zuek,egiten duzue
+egin,to do,present,haiek,egiten dute
+egin,to do,past,ni,egin nuen
+egin,to do,past,zu,egin zenuen
+egin,to do,past,hura,egin zuen
+egin,to do,past,gu,egin genuen
+egin,to do,past,zuek,egin zenuten
+egin,to do,past,haiek,egin zuten
+egin,to do,future,ni,egingo dut
+egin,to do,future,zu,egingo duzu
+egin,to do,future,hura,egingo du
+egin,to do,future,gu,egingo dugu
+egin,to do,future,zuek,egingo duzue
+egin,to do,future,haiek,egingo dute
+egin,to do,conditional,ni,egingo nuke
+egin,to do,conditional,zu,egingo zenuke
+egin,to do,conditional,hura,egingo luke
+egin,to do,conditional,gu,egingo genuke
+egin,to do,conditional,zuek,egingo zenukete
+egin,to do,conditional,haiek,egingo lukete
+egin,to do,subjunctive,ni,egin dezadan
+egin,to do,subjunctive,zu,egin dezazun
+egin,to do,subjunctive,hura,egin dezan
+egin,to do,subjunctive,gu,egin dezagun
+egin,to do,subjunctive,zuek,egin dezazuen
+egin,to do,subjunctive,haiek,egin dezaten
+egin,to do,perfect,ni,egin dut
+egin,to do,perfect,zu,egin duzu
+egin,to do,perfect,hura,egin du
+egin,to do,perfect,gu,egin dugu
+egin,to do,perfect,zuek,egin duzue
+egin,to do,perfect,haiek,egin dute
+esan,to say,present,ni,esaten dut
+esan,to say,present,zu,esaten duzu
+esan,to say,present,hura,esaten du
+esan,to say,present,gu,esaten dugu
+esan,to say,present,zuek,esaten duzue
+esan,to say,present,haiek,esaten dute
+esan,to say,past,ni,esan nuen
+esan,to say,past,zu,esan zenuen
+esan,to say,past,hura,esan zuen
+esan,to say,past,gu,esan genuen
+esan,to say,past,zuek,esan zenuten
+esan,to say,past,haiek,esan zuten
+esan,to say,future,ni,esango dut
+esan,to say,future,zu,esango duzu
+esan,to say,future,hura,esango du
+esan,to say,future,gu,esango dugu
+esan,to say,future,zuek,esango duzue
+esan,to say,future,haiek,esango dute
+esan,to say,conditional,ni,esango nuke
+esan,to say,conditional,zu,esango zenuke
+esan,to say,conditional,hura,esango luke
+esan,to say,conditional,gu,esango genuke
+esan,to say,conditional,zuek,esango zenukete
+esan,to say,conditional,haiek,esango lukete
+esan,to say,subjunctive,ni,esan dezadan
+esan,to say,subjunctive,zu,esan dezazun
+esan,to say,subjunctive,hura,esan dezan
+esan,to say,subjunctive,gu,esan dezagun
+esan,to say,subjunctive,zuek,esan dezazuen
+esan,to say,subjunctive,haiek,esan dezaten
+esan,to say,perfect,ni,esan dut
+esan,to say,perfect,zu,esan duzu
+esan,to say,perfect,hura,esan du
+esan,to say,perfect,gu,esan dugu
+esan,to say,perfect,zuek,esan duzue
+esan,to say,perfect,haiek,esan dute
+ikusi,to see,present,ni,ikusten dut
+ikusi,to see,present,zu,ikusten duzu
+ikusi,to see,present,hura,ikusten du
+ikusi,to see,present,gu,ikusten dugu
+ikusi,to see,present,zuek,ikusten duzue
+ikusi,to see,present,haiek,ikusten dute
+ikusi,to see,past,ni,ikusi nuen
+ikusi,to see,past,zu,ikusi zenuen
+ikusi,to see,past,hura,ikusi zuen
+ikusi,to see,past,gu,ikusi genuen
+ikusi,to see,past,zuek,ikusi zenuten
+ikusi,to see,past,haiek,ikusi zuten
+ikusi,to see,future,ni,ikusiko dut
+ikusi,to see,future,zu,ikusiko duzu
+ikusi,to see,future,hura,ikusiko du
+ikusi,to see,future,gu,ikusiko dugu
+ikusi,to see,future,zuek,ikusiko duzue
+ikusi,to see,future,haiek,ikusiko dute
+ikusi,to see,conditional,ni,ikusiko nuke
+ikusi,to see,conditional,zu,ikusiko zenuke
+ikusi,to see,conditional,hura,ikusiko luke
+ikusi,to see,conditional,gu,ikusiko genuke
+ikusi,to see,conditional,zuek,ikusiko zenukete
+ikusi,to see,conditional,haiek,ikusiko lukete
+ikusi,to see,subjunctive,ni,ikusi dezadan
+ikusi,to see,subjunctive,zu,ikusi dezazun
+ikusi,to see,subjunctive,hura,ikusi dezan
+ikusi,to see,subjunctive,gu,ikusi dezagun
+ikusi,to see,subjunctive,zuek,ikusi dezazuen
+ikusi,to see,subjunctive,haiek,ikusi dezaten
+ikusi,to see,perfect,ni,ikusi dut
+ikusi,to see,perfect,zu,ikusi duzu
+ikusi,to see,perfect,hura,ikusi du
+ikusi,to see,perfect,gu,ikusi dugu
+ikusi,to see,perfect,zuek,ikusi duzue
+ikusi,to see,perfect,haiek,ikusi dute
+jakin,to know,present,ni,dakit
+jakin,to know,present,zu,dakizu
+jakin,to know,present,hura,daki
+jakin,to know,present,gu,dakigu
+jakin,to know,present,zuek,dakizue
+jakin,to know,present,haiek,dakite
+jakin,to know,past,ni,nekien
+jakin,to know,past,zu,zenekien
+jakin,to know,past,hura,zekien
+jakin,to know,past,gu,genekien
+jakin,to know,past,zuek,zenekiten
+jakin,to know,past,haiek,zekiten
+jakin,to know,future,ni,jakingo dut
+jakin,to know,future,zu,jakingo duzu
+jakin,to know,future,hura,jakingo du
+jakin,to know,future,gu,jakingo dugu
+jakin,to know,future,zuek,jakingo duzue
+jakin,to know,future,haiek,jakingo dute
+jakin,to know,conditional,ni,jakingo nuke
+jakin,to know,conditional,zu,jakingo zenuke
+jakin,to know,conditional,hura,jakingo luke
+jakin,to know,conditional,gu,jakingo genuke
+jakin,to know,conditional,zuek,jakingo zenukete
+jakin,to know,conditional,haiek,jakingo lukete
+jakin,to know,subjunctive,ni,jakin dezadan
+jakin,to know,subjunctive,zu,jakin dezazun
+jakin,to know,subjunctive,hura,jakin dezan
+jakin,to know,subjunctive,gu,jakin dezagun
+jakin,to know,subjunctive,zuek,jakin dezazuen
+jakin,to know,subjunctive,haiek,jakin dezaten
+jakin,to know,perfect,ni,jakin dut
+jakin,to know,perfect,zu,jakin duzu
+jakin,to know,perfect,hura,jakin du
+jakin,to know,perfect,gu,jakin dugu
+jakin,to know,perfect,zuek,jakin duzue
+jakin,to know,perfect,haiek,jakin dute
+hartu,to take,present,ni,hartzen dut
+hartu,to take,present,zu,hartzen duzu
+hartu,to take,present,hura,hartzen du
+hartu,to take,present,gu,hartzen dugu
+hartu,to take,present,zuek,hartzen duzue
+hartu,to take,present,haiek,hartzen dute
+hartu,to take,past,ni,hartu nuen
+hartu,to take,past,zu,hartu zenuen
+hartu,to take,past,hura,hartu zuen
+hartu,to take,past,gu,hartu genuen
+hartu,to take,past,zuek,hartu zenuten
+hartu,to take,past,haiek,hartu zuten
+hartu,to take,future,ni,hartuko dut
+hartu,to take,future,zu,hartuko duzu
+hartu,to take,future,hura,hartuko du
+hartu,to take,future,gu,hartuko dugu
+hartu,to take,future,zuek,hartuko duzue
+hartu,to take,future,haiek,hartuko dute
+hartu,to take,conditional,ni,hartuko nuke
+hartu,to take,conditional,zu,hartuko zenuke
+hartu,to take,conditional,hura,hartuko luke
+hartu,to take,conditional,gu,hartuko genuke
+hartu,to take,conditional,zuek,hartuko zenukete
+hartu,to take,conditional,haiek,hartuko lukete
+hartu,to take,subjunctive,ni,hartu dezadan
+hartu,to take,subjunctive,zu,hartu dezazun
+hartu,to take,subjunctive,hura,hartu dezan
+hartu,to take,subjunctive,gu,hartu dezagun
+hartu,to take,subjunctive,zuek,hartu dezazuen
+hartu,to take,subjunctive,haiek,hartu dezaten
+hartu,to take,perfect,ni,hartu dut
+hartu,to take,perfect,zu,hartu duzu
+hartu,to take,perfect,hura,hartu du
+hartu,to take,perfect,gu,hartu dugu
+hartu,to take,perfect,zuek,hartu duzue
+hartu,to take,perfect,haiek,hartu dute

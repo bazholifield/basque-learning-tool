@@ -1,6 +1,6 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from backend.reading.reading_loader import TOPICS, get_passage, evaluate_summary
+from backend.reading.reading_loader import get_all_passages, get_passage_by_id, evaluate_summary
 
 router = APIRouter()
 
@@ -10,14 +10,17 @@ class EvaluateRequest(BaseModel):
     reference_translation: str
 
 
-@router.get("/topics")
-def get_topics():
-    return TOPICS
+@router.get("/passages")
+def list_passages():
+    return get_all_passages()
 
 
-@router.get("/passage")
-def reading_passage(topic: str = "food", level: str = "beginner", length: str = "short"):
-    return get_passage(topic, level, length)
+@router.get("/passage/{passage_id}")
+def get_passage(passage_id: str):
+    passage = get_passage_by_id(passage_id)
+    if not passage:
+        raise HTTPException(status_code=404, detail=f"Passage '{passage_id}' not found")
+    return passage
 
 
 @router.post("/evaluate")

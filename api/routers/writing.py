@@ -1,20 +1,27 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
-from backend.writing.writing_loader import get_prompt, evaluate
+from backend.writing.writing_loader import get_all_conversations, get_conversation_by_id, translate_to_english
 
 router = APIRouter()
 
 
-class EvaluateRequest(BaseModel):
-    user_text: str
-    reference_text: str
+class TranslateRequest(BaseModel):
+    text: str
 
 
-@router.get("/prompt")
-def writing_prompt():
-    return {"prompt": get_prompt()}
+@router.post("/translate")
+def translate(req: TranslateRequest):
+    return {"translation": translate_to_english(req.text)}
 
 
-@router.post("/evaluate")
-def evaluate_writing(req: EvaluateRequest):
-    return evaluate(req.user_text, req.reference_text)
+@router.get("/conversations")
+def list_conversations():
+    return get_all_conversations()
+
+
+@router.get("/conversation/{conversation_id}")
+def get_conversation(conversation_id: str):
+    conv = get_conversation_by_id(conversation_id)
+    if not conv:
+        raise HTTPException(status_code=404, detail=f"Conversation '{conversation_id}' not found")
+    return conv

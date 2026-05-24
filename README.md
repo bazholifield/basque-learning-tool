@@ -25,6 +25,21 @@ The Flutter app is the primary interface for desktop use. The original Streamlit
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/home.png" width="30%" valign="top" />
+  <img src="screenshots/conjugation.png" width="30%" valign="top" />
+  <img src="screenshots/vocab.png" width="30%" valign="top" />
+</p>
+
+<p align="center">
+  <img src="screenshots/reading.png" width="30%" valign="top" />
+  <img src="screenshots/writing.png" width="30%" valign="top" />
+  <img src="screenshots/translate.png" width="30%" valign="top" />
+</p>
+
+
 ## Features
 
 ### Practice

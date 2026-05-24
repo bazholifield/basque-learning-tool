@@ -18,7 +18,7 @@ FastAPI Server (api/)          ← REST API, auto-docs at /docs
 Python Backend (backend/)      ← data loading, model logic, SM-2 algorithm
         │
         ├── data/              ← declensions, conjugations, vocabulary, grammar explanations
-        └── HuggingFace model  ← offline Basque ↔ English translation (no API required)
+        └── Helsinki-NLP/opus-mt-eu-en  ← offline Basque - English translation
 ```
 
 The Flutter app is the primary interface for desktop use. The original Streamlit interface (`frontend/`) is still available for quick testing and development. Everything the frontend needs is exposed through the FastAPI layer, which keeps the backend fully decoupled and individually replaceable.
@@ -40,8 +40,8 @@ The Flutter app is the primary interface for desktop use. The original Streamlit
 - Designed for English speakers with no prior Basque exposure
 
 ### Translator
-- Bidirectional Basque ↔ English translation
-- Runs on a locally downloaded HuggingFace model — no internet or API key required
+- Bidirectional Basque - English translation
+- Runs on Helsinki-NLP/opus-mt-eu-en downloaded locally, so no internet or API key required at runtime
 - Integrated into writing practice for automated answer evaluation
 
 ---

@@ -1,82 +1,95 @@
-# Basque Learning App
+# Basque Learning Tool
 
-This is a small project I started as a way to help myself learn Basque. I wanted something more interactive and customizable than traditional resources, so I built a simple app with different tools to practice vocabulary and grammar.
+A full-stack language learning app for Basque, built during a year living in the Basque Country. The app combines spaced repetition, NLP-based writing evaluation, and an offline neural translator into a modular platform designed to be extended to other languages.
 
-Right now, the app includes things like:
+> **Stack:** Flutter (desktop) · FastAPI · Python · Streamlit · HuggingFace Transformers
 
-* Practice activities for vocabulary, noun declensions, and verb conjugations
-* Flashcards with spaced repetition (SM-2 algorithm) for long-term retention
-* A "learn" section with explanations and examples for each grammatical case
-* Reading and writing activities with automated evaluation
-* An offline translator I've been experimenting with
+---
 
-It's still a work in progress, but I've been gradually expanding it as I learn more Basque and as I think of new features that would actually be useful for studying.
+## Architecture
+
+```
+Flutter Desktop App (lib/)
+        │
+        ▼
+FastAPI Server (api/)          ← REST API, auto-docs at /docs
+        │
+        ▼
+Python Backend (backend/)      ← data loading, model logic, SM-2 algorithm
+        │
+        ├── data/              ← declensions, conjugations, vocabulary, grammar explanations
+        └── HuggingFace model  ← offline Basque ↔ English translation (no API required)
+```
+
+The Flutter app is the primary interface for desktop use. The original Streamlit interface (`frontend/`) is still available for quick testing and development. Everything the frontend needs is exposed through the FastAPI layer, which keeps the backend fully decoupled and individually replaceable.
 
 ---
 
 ## Features
 
-* **Practice**
+### Practice
+- Exercises for Basque noun declensions across all grammatical cases
+- Verb conjugation drills
+- Vocabulary flashcards with spaced repetition (SM-2 algorithm) for long-term retention
+- Reading comprehension with similarity-based summary evaluation
+- Writing practice with automated translation and scoring
 
-  * Exercises for noun declensions and verb conjugations
-  * Flashcards for vocabulary with spaced repetition
-  * Reading comprehension with similarity-based summary evaluation
-  * Writing practice with automated translation and scoring
+### Learn
+- Plain-English explanations of Basque grammatical concepts
+- Examples for each case and structure
+- Designed for English speakers with no prior Basque exposure
 
-* **Learning**
-
-  * Plain-English explanations of grammatical concepts
-  * Examples for each case and structure
-
-* **Translator**
-
-  * Bidirectional Basque ↔ English translation
-  * Runs on a locally downloaded model (no API required)
-  * Still experimental but useful for quick checks
-
----
-
-## Structure
-
-* The app now has two frontends: a **Flutter app** (in `lib/`) for desktop and eventually mobile, and the original **Streamlit interface** (in `frontend/`) still around for quick testing.
-* The **backend** (in `backend/`) handles data loading and model logic.
-* A **FastAPI server** (in `api/`) sits between the Flutter app and the Python backend, exposing everything over a local REST API.
-* Data (like declensions, conjugations, vocabulary, and explanations) lives in `data/` and is loaded dynamically.
-
-The goal was to keep things modular so I can easily:
-
-* Add new activities
-* Swap in better datasets
-* Improve individual components without breaking everything
+### Translator
+- Bidirectional Basque ↔ English translation
+- Runs on a locally downloaded HuggingFace model — no internet or API key required
+- Integrated into writing practice for automated answer evaluation
 
 ---
 
 ## Running It
 
-You need two terminals:
+**Requirements:** Flutter SDK, Python 3.10+, and a virtual environment with the dependencies installed.
 
 ```bash
-# Terminal 1 — start the API server
-source venv/bin/activate && uvicorn api.main:app --host 0.0.0.0 --port 8000
+pip install -r requirements.txt
+```
 
-# Terminal 2 — run the Flutter app
+Start both processes in separate terminals:
+
+```bash
+# Terminal 1 — API server
+source venv/bin/activate
+uvicorn api.main:app --host 0.0.0.0 --port 8000
+
+# Terminal 2 — Flutter app
 flutter run -d linux
 ```
 
-The API docs are available at `http://localhost:8000/docs` when the server is running.
+API docs are available at `http://localhost:8000/docs` once the server is running.
+
+To use the Streamlit interface instead:
+
+```bash
+streamlit run frontend/app.py
+```
 
 ---
 
-## Future Plans
+## Project Status
 
-* Improve the interface and add more practice modes (sentence building, lessons, speaking and listening practice, etc.)
-* Get the app running on Android
-* Expand the translation system and reading/writing tools
-* Support additional languages beyond Basque
-* Clean up and standardize the linguistic data
+This is an active personal project. Currently working on:
+
+- Android support via Flutter's mobile build
+- Expanded sentence-building and listening practice modes
+- Improved translation pipeline and writing evaluation
+- Standardized linguistic data format to support additional languages
+
+The long-term goal is a framework flexible enough to support other low-resource or morphologically complex languages beyond Basque.
 
 ---
 
-## Why I Built This
+## Why Basque
 
-This project is mainly for personal use so I could figure out how I learn best. At the same time, it's been a great way to practice building tools, working with language data, and applying NLP concepts in a practical setting. Long term, the goal is to turn this into a genuinely useful language learning app for English speakers — Basque is just where the framework is being developed.
+Basque (*Euskara*) is a language isolate — unrelated to any other known language — with a highly agglutinative morphology and a complex case system that makes it genuinely difficult for English speakers. Existing learning resources are sparse compared to major European languages, and none of them were interactive or customizable in the way I wanted.
+
+Building this was partly about learning Basque and partly about working through the practical problems of building NLP tooling for a low-resource language: limited training data, limited pre-trained model availability, and morphological complexity that breaks assumptions baked into tools designed for Indo-European languages. Those are exactly the kinds of problems I want to keep working on.

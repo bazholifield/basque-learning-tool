@@ -90,6 +90,6 @@ The long-term goal is a framework flexible enough to support other low-resource 
 
 ## Why Basque
 
-Basque (*Euskara*) is a language isolate — unrelated to any other known language — with a highly agglutinative morphology and a complex case system that makes it genuinely difficult for English speakers. Existing learning resources are sparse compared to major European languages, and none of them were interactive or customizable in the way I wanted.
+I spent a year living in the Basque Country as an English language assistant, which is what prompted me to start learning Basque (Euskara), which is a language isolate unrelated to any other known language, with a highly agglutinative morphology and a complex case system that makes it difficult for English speakers.
 
 Building this was partly about learning Basque and partly about working through the practical problems of building NLP tooling for a low-resource language: limited training data, limited pre-trained model availability, and morphological complexity that breaks assumptions baked into tools designed for Indo-European languages. Those are exactly the kinds of problems I want to keep working on.

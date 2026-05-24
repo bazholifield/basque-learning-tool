@@ -6,7 +6,7 @@ export PATH="$PATH:$HOME/flutter/bin"
 
 echo "Starting FastAPI server..."
 source "$ROOT/venv/bin/activate"
-uvicorn api.main:app --host 0.0.0.0 --port 8000 &
+"$ROOT/venv/bin/uvicorn" api.main:app --host 0.0.0.0 --port 8000 &
 API_PID=$!
 
 # Wait for the server to be ready

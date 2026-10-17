@@ -1,8 +1,9 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
-// Change this to your laptop's local IP when testing on a physical device.
-const String kBaseUrl = 'http://localhost:8000';
+// Set at build time: flutter build apk --dart-define=API_BASE=http://10.0.0.29:8000
+// The default works on desktop, and on the phone through adb reverse (the Helm sets that up).
+const String kBaseUrl = String.fromEnvironment('API_BASE', defaultValue: 'http://localhost:8000');
 
 final apiClientProvider = Provider<Dio>((ref) {
   return Dio(BaseOptions(

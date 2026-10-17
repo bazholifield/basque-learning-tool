@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The API is plain HTTP on this PC. Android blocks plain HTTP in release builds, so allow it
+     only for the addresses the app is built to use: localhost (through adb reverse) and the
+     PC's address on the home network. Everything else stays HTTPS-only. -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">localhost</domain>
+        <domain includeSubdomains="false">127.0.0.1</domain>
+        <domain includeSubdomains="false">10.0.0.29</domain>
+    </domain-config>
+</network-security-config>
